@@ -8,8 +8,8 @@ on:
         type: boolean
         default: false
   schedule:
-    # 매일 08:05 KST (23:05 UTC)
-    - cron: "5 23 * * *"
+    # 매일 09:00 KST (00:00 UTC)
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
