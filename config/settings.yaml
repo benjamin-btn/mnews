@@ -1,0 +1,17 @@
+project_name: mnews
+timezone: Asia/Seoul
+language: ko
+
+# 실제 구현 단계에서 사용할 기본값입니다.
+openai:
+  model: gpt-5.6-luna
+  reasoning_effort: low
+  search_context_size: medium
+
+newsletter:
+  max_articles_per_section: 10
+  lookback_days: 7
+  output_filename: "%Y-%m-%d.md"
+
+sources:
+  refresh_days: 30

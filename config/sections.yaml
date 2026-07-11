@@ -1,0 +1,16 @@
+sections:
+  - id: economy
+    name: 경제
+    description: 한국과 세계의 거시경제, 금리, 환율, 물가, 정책 변화
+    source_count: 6
+
+  - id: stocks
+    name: 주식
+    description: 한국 및 미국 증시, 주요 기업, 실적, 시장에 영향을 주는 이슈
+    source_count: 6
+
+  - id: ai-trends
+    name: AI트렌드
+    description: 생성형 AI, 주요 연구, 제품 출시, AI 기업과 정책 동향
+    source_count: 6
+

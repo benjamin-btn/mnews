@@ -1,0 +1,33 @@
+section: 경제
+generated_at: '2026-07-12T00:25:43+09:00'
+sources:
+- name: 연합뉴스 경제
+  url: https://www.yna.co.kr/economy/all
+  rss: null
+  reason: 한국의 성장률·물가·금리·환율과 주요국 경제 이슈를 한국어로 매일 폭넓게 보도하는 국내 통신사 경제 섹션이다.
+  enabled: true
+- name: AP News Economy
+  url: https://apnews.com/hub/economy
+  rss: null
+  reason: 관세·인플레이션·금융시장 등 미국과 세계 경제 현안을 정기적으로 다루며 로그인 없이 기사 확인이 가능한 국제 통신사 경제 섹션이다.
+  enabled: true
+- name: The Guardian Business + Economics
+  url: https://www.theguardian.com/business/business%2Beconomics
+  rss: null
+  reason: 영국과 유럽을 포함한 세계 경제·정책·물가·금융시장 이슈를 정기적으로 다루며 비교적 개방적인 전문 언론 섹션이다.
+  enabled: true
+- name: 한국은행 통화정책 보도자료
+  url: https://www.bok.or.kr/portal/bbs/P0000559/list.do?menuNo=200690
+  rss: null
+  reason: 기준금리 결정과 통화정책 방향, 금융·물가 판단에 관한 한국은행의 공식 1차 자료를 제공한다.
+  enabled: true
+- name: IMF News
+  url: https://www.imf.org/en/news
+  rss: null
+  reason: 세계 성장률·인플레이션·환율·재정 및 통화정책에 관한 국제통화기금의 공식 발표와 분석을 제공한다.
+  enabled: true
+- name: OECD Economic Policy
+  url: https://www.oecd.org/en/topics/economic-policy.html
+  rss: null
+  reason: 회원국의 거시경제 전망, 구조개혁, 재정·통화정책과 정책 권고를 다루는 국제기구의 전문 연구·정책 출처다.
+  enabled: true
