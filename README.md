@@ -78,3 +78,4 @@ python scripts/send_telegram.py --date YYYY-MM-DD
 GitHub Actions에서도 전송하려면 저장소 Secret에 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`를 추가합니다.
 # mnews
 # mnews
+# mnews
