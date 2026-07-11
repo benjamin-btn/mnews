@@ -87,3 +87,4 @@ GitHub Actions에서도 전송하려면 저장소 Secret에 `TELEGRAM_BOT_TOKEN`
 # mnews
 # mnews
 # mnews
+# mnews
