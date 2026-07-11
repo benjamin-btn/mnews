@@ -55,20 +55,20 @@ sections/
 
 ## GitHub Actions
 
-`.github/workflows/daily-newsletter.yml`은 매일 오전 8시 5분(한국 시간)에 실행됩니다. GitHub 저장소 Settings의 Actions secrets에 `OPENAI_API_KEY`를 등록해야 합니다.
+`.github/workflows/daily-newsletter.yml`은 매일 오전 9시(한국 시간)에 GitHub 서버에서 실행됩니다. GitHub 저장소 Settings의 Actions secrets에 `OPENAI_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`를 등록해야 합니다.
 
 API 키는 로컬 파일이나 Git 저장소에 저장하지 않습니다.
 
 ## Telegram 자동 전송
 
-로컬 Mac에서는 `shorts-youtuber`에 등록했던 `AI Daily` 봇 정보를 macOS 키체인에서 읽습니다. `com.mnews.daily` LaunchAgent가 매일 오전 8시 10분에 다음 작업을 실행합니다.
+GitHub Actions가 매일 다음 작업을 실행합니다. Mac의 로컬 예약 작업은 사용하지 않습니다.
 
 1. 섹션별 뉴스레터 생성
 2. 단일 HTML 종합본 생성
 3. 종합 HTML 파일 전송
 4. 주식 관심 종목 3~5개와 선정 이유·촉매·위험 요인 전송
 
-수동 전송:
+로컬에서 필요할 때만 수동 전송:
 
 ```bash
 source .venv/bin/activate
