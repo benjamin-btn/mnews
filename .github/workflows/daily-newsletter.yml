@@ -1,15 +1,15 @@
 name: Daily newsletter
 
-on:
-  workflow_dispatch:
-    inputs:
-      refresh_sources:
-        description: Refresh source lists
-        type: boolean
-        default: false
-  schedule:
-    # 매일 09:00 KST (00:00 UTC)
-    - cron: "0 0 * * *"
+#on:
+#  workflow_dispatch:
+#    inputs:
+#      refresh_sources:
+#        description: Refresh source lists
+#        type: boolean
+#        default: false
+#  schedule:
+#    # 매일 09:00 KST (00:00 UTC)
+#    - cron: "0 0 * * *"
 
 permissions:
   contents: write
